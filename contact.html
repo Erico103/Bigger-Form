@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <ul class="menu">
+            
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="https://www.w3schools.com/ " target="_blank">W3 Schools</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN webdocs</a></li>
+            <li><a href="https://github.com/" target="_blank">Github</a></li>
+            </ul>
+        </nav>
+        </div>
+        <h1>Contact</h1>
+        <div class="formCenter">
+            <form name="contact" method="POST" data-netlify="true">
+            <div class="formBox">
+                <label>Naam: <input type="text" name="name" /></label><br>
+                <label>Emailadres: <input type="email" name="email" /></label><br>
+                <label>telefoonnummer: <input type="tel" name="telefoon" /></label><br>
+                <label>leeftijd: <input type="text" name="leeftijd" /></label><br>
+                <label>geboortedatum: <input type="text" name="geboortedatum" /></label><br><br>
+             </div>   
+                <input type="radio" name="man" value='man'> Man
+                <input type="radio" name="vrouw" value='vrouw'> Vrouw  <br><br>
+                <label>Wat is uw favoriete cuisine?</label><br>
+                <input type="checkbox" name="Frans" value='Frans' >Frans
+                <input type="checkbox" name="Italiano" value='Italiaans' >Italiaans
+                <input type="checkbox" name="Spaans" value='Spaans' >Spaans
+                <input type="checkbox" name="Arabic" value='Arabisch'>Arabisch <br><br>
+                <label>welke kleur schort draagt u het liefst?</label><br>
+                <input type="color" name="kleur short" ><br><br>
+                <div class="formBox">
+                <label>Vertelt iets meer over u zelf</label><br>
+                <textarea name="Biografie"cols="30" rows="10"></textarea><br><br>
+                <label>Wat is de url van uw receptenwebsite?</label><br>
+                <input type="url" name="receptenwebsite" ><br><br>
+                </div>
+                <input type="reset" name="reset"value="verwijder" ><br>
+                
+            
+            
+                <button type="submit">verzenden</button>
+            </p>
+        </form>
+        </div>
+</body>
+</html>
